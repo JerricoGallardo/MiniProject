@@ -1,0 +1,484 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    background: white;
+    overflow: hidden;
+    padding: 80px 0px 20px 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.logo-world-oral {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.logo-world-oral img {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    row-gap: 10px;
+}
+
+.main-text {
+    font-size: 1.4vw;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.sub-text {
+    font-size: 1vw;
+}
+
+.logo-haleon img {
+    height: 100px;
+    width: auto;
+}
+
+.headline {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.headline h1 {
+    font-size: 4.5vw;
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: #55ED32;
+}
+
+.black-box {
+    background-color: #000;
+    color: #55ED32;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 50px;
+    width: 75%;
+}
+
+.black-box p {
+    font-size: 2vw;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.beaver-section {
+    flex: 1;
+    max-width: 60%;
+    margin-top: 200px;
+    z-index: 2;
+    min-width: 300px;
+}
+
+.beaver-img {
+    width: 90%;
+    height: auto;
+}
+
+.heart-icon {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+.content-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 40%;
+    z-index: 2;
+    min-width: 300px;
+}
+
+.content-text p {
+    font-size: 3vw;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 15px 0;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.divider_thick {
+    width: 100px;
+    height: 14px;
+    background-color: #000;
+    margin-top: 3vw;
+}
+
+.divider_bold {
+    width: 100px;
+    height: 12px;
+    background-color: #000;
+    margin-top: 3vw;
+}
+
+.divider_semi-bold {
+    width: 100px;
+    height: 10px;
+    background-color: #000;
+    margin-top: 3vw;
+}
+
+.divider_normal {
+    width: 100px;
+    height: 8px;
+    background-color: #000;
+    margin-top: 3vw;
+}
+
+.divider_semi-thin {
+    width: 100px;
+    height: 6px;
+    background-color: #000;
+    margin-top: 3vw;
+}
+
+.divider_thin {
+    width: 100px;
+    height: 4px;
+    background-color: #000;
+    margin-top: 3vw;
+}
+
+.check-icon-large {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    bottom: 20%;
+    left: 55%;
+}
+
+.green-footer {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    height: 150px;
+    z-index: 1;
+}
+
+.footer-1 {
+    position: absolute;
+    bottom: 0;
+    width: 70%;
+    height: 50%;
+    background-color: #55ED32;
+}
+
+.footer-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 50%;
+    background-color: #55ED32;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 300px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    row-gap: 30px;
+    align-items: center;
+    align-self: center;
+    min-width: 300px;
+}
+
+.btn {
+    display: block;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    font-weight: 900;
+    border-radius: 50px;
+    border: 10px solid #55ED32;
+    font-size: 30px;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: start;
+    align-self: center;
+    min-width: 300px;
+}
+
+.haleon-partner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 4vw;
+    width: auto;
+    margin-right: 8px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    font-weight: normal;
+    font-size: 2vw;
+    line-height: 1.5;
+}
+
+.check-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.footer-bold-text {
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.product-code {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: right;
+}
+
+@media (max-width: 1024px) {
+
+    .black-box {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .main-text {
+        font-size: 18px;
+    }
+    
+    .sub-text {
+        font-size: 14px;
+    }
+    
+    .headline h1 {
+        font-size: 36px;
+    }
+    
+    .black-box p {
+        font-size: 18px;
+    }
+    
+    .content-text p {
+        font-size: 24px;
+    }
+
+    .footer-logo {
+        height: 4vw;
+    }
+    
+    .feature-item {
+        font-size: 18px;
+    }
+    
+    .heart-icon {
+        width: 150px;
+    }
+    
+    .check-icon-large {
+        width: 150px;
+    }
+    
+    .btn {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .black-box {
+        width: 90%;
+        padding: 20px;
+    }
+    
+    .headline h1 {
+        font-size: 28px;
+    }
+    
+    .black-box p {
+        font-size: 16px;
+    }
+    
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .beaver-section {
+        max-width: 100%;
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .content-text {
+        max-width: 100%;
+    }
+    
+    .heart-icon {
+        width: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 5%;
+    }
+    
+    .check-icon-large {
+        width: 100px;
+        position: relative;
+        left: auto;
+        bottom: auto;
+        margin-top: 30px;
+    }
+    
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 40px;
+    }
+    
+    .btn-container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .btn {
+        width: 80%;
+        font-size: 18px;
+        padding: 15px;
+        border-width: 5px;
+    }
+    
+    .feature-list {
+        width: 100%;
+    }
+    
+    .footer-logo {
+        height: 4vw;
+    }
+    
+    .product-code {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    
+    .green-footer {
+        height: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .container {
+        padding: 40px 0px 20px 0px;
+    }
+    
+    .logo-world-oral img {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .logo-haleon img {
+        height: 70px;
+    }
+    
+    .headline h1 {
+        font-size: 24px;
+    }
+    
+    .black-box {
+        border-radius: 30px;
+        padding: 15px;
+    }
+    
+    .black-box p {
+        font-size: 14px;
+    }
+    
+    .content-text p {
+        font-size: 18px;
+    }
+    
+    .beaver-section {
+        margin-top: 80px;
+    }
+    
+    .btn {
+        padding: 10px;
+        font-size: 16px;
+        border-width: 4px;
+    }
+    
+    .feature-item {
+        font-size: 14px;
+    }
+    
+    .check-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
